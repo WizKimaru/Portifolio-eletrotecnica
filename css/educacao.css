@@ -1,0 +1,154 @@
+/* Estilo base */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 2rem;
+  background-color: #fff;
+  color: #222;
+}
+
+.educacao h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.linha-topo {
+  height: 3px;
+  width: 100px;
+  background: linear-gradient(to right, #ff6600, #ff0000);
+  margin-bottom: 2rem;
+}
+
+.areas h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.cards {
+  display: flex;
+  gap: 70px;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: #ffe9cf;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 400px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.periodo {
+  color: #888;
+  margin-bottom: 0.5rem;
+}
+
+.grid {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.habilidades, .qualidades {
+  flex: 1;
+  min-width: 250px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
+.tags span {
+  background-color: #eef1f5;
+  padding: 0.4rem 0.8rem;
+  border-radius: 12px;
+  font-size: 0.95rem;
+}
+
+/* Responsividade */
+
+@media (max-width: 1413px) {
+  .card{
+    width: 100%;
+  }
+}
+
+@media (max-width: 888px) {
+  .educacao h1 {
+    font-size: 2rem;
+  }
+
+  .areas h2,
+  .habilidades h2,
+  .qualidades h2 {
+    font-size: 1.3rem;
+  }
+
+  .tags span {
+    font-size: 0.85rem;
+    padding: 0.3rem 0.7rem;
+  }
+
+  .linha-topo {
+    width: 80px;
+  }
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sidebar{
+    margin: 0 auto;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    padding: 1.5rem;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .grid {
+    flex-direction: column;
+  }
+
+  .habilidades, .qualidades {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .educacao h1 {
+    font-size: 2rem;
+  }
+
+  .areas h2,
+  .habilidades h2,
+  .qualidades h2 {
+    font-size: 1.3rem;
+  }
+
+  .tags span {
+    font-size: 0.85rem;
+    padding: 0.3rem 0.7rem;
+  }
+
+  .linha-topo {
+    width: 80px;
+  }
+
+}
