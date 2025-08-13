@@ -1,0 +1,31 @@
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.imagensdagaleria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.imagensdagaleria img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    border: 1px solid rgb(181, 181, 181);
+}
+
+.galeria h2{
+    text-align: center;
+  }
+
+@media (max-width: 436px) {
+  .galeria h2{
+    font-size: 1.2rem;
+  }
+}
