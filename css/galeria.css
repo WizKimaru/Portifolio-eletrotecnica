@@ -18,6 +18,11 @@
     height: 250px;
     border-radius: 10px;
     border: 1px solid rgb(181, 181, 181);
+    transition: 0.3s;
+}
+
+.imagensdagaleria img:hover{
+    transform: scale(1.1);
 }
 
 .galeria h2{
