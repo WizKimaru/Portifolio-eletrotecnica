@@ -1,8 +1,25 @@
 
+.projetos div{
+    border-radius: 7px;
+    padding: 10px;
+    background-color: rgba(241, 88, 42, 0.221)
+}
+.orcamentos h2{
+  text-align: center;
+}
+.videos_orcamentos{
+  display: flex;
+  justify-content: center;
+}
+.videos_orcamentos video{
+  width: 650px;
+  height: 360px;
+}
 .galeria{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 40px;
     gap: 30px;
 }
 
@@ -15,7 +32,7 @@
 
 .imagensdagaleria img{
     width: 250px;
-    height: 250px;
+    height: 300px;
     border-radius: 10px;
     border: 1px solid rgb(181, 181, 181);
     transition: 0.3s;
@@ -29,8 +46,19 @@
     text-align: center;
   }
 
+@media (max-width: 1204px) {
+  .videos_orcamentos video{
+    width: 400px;
+    height: 260px;
+}
+}
+
 @media (max-width: 436px) {
   .galeria h2{
     font-size: 1.2rem;
   }
+  .videos_orcamentos video{
+    width: 300px;
+    height: 160px;
+}
 }
