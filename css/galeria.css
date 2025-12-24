@@ -6,16 +6,20 @@
     padding: 10px;
     background-color: rgba(241, 88, 42, 0.221)
 }
-.orcamentos h2{
-  text-align: center;
-}
 .videos_orcamentos{
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.orcamentos h2{
+  text-align: center;
 }
 .videos_orcamentos video{
   width: 650px;
   height: 360px;
+  border-radius: 10px;
 }
 .bombas_solares{
     display: flex;
