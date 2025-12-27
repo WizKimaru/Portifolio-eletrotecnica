@@ -22,7 +22,8 @@
 }
 .bombas_solares,
 .chuveiro_eletrico, 
-.sistema_separado{
+.sistema_separado,
+.gerador_solar_124{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -31,14 +32,16 @@
   gap: 30px;
 }
 .chuveiro_eletrico video,
-.sistema_separado video{
+.sistema_separado video,
+.gerador_solar_124 video{
   width: 650px;
   height: 360px;
   border-radius: 10px;
 }
 .bombas_solares img,
 .chuveiro_eletrico img,
-.sistema_separado img{
+.sistema_separado img,
+.gerador_solar_124 img{
   max-width: 950px;
   width: 100%;
   height: auto;
@@ -78,7 +81,8 @@
 @media (max-width: 1204px) {
   .videos_orcamentos video,
   .sistema_separado video,
-  .chuveiro_eletrico video{
+  .chuveiro_eletrico video,
+  .gerador_solar_124 video{
     width: 400px;
     height: 260px;
 }
@@ -87,7 +91,8 @@
 @media (max-width: 436px) {
   .videos_orcamentos video,
   .sistema_separado video,
-  .chuveiro_eletrico video{
+  .chuveiro_eletrico video,
+  .gerador_solar_124 video{
     width: 300px;
     height: 160px;
 }
